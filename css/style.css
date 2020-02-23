@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.alert-container {
+
+}
+
+.callout-container {
+    height: 100vh;
+
+    /* piece of code copied from: https://css-tricks.com/perfect-full-page-background-image/ */
+    background: url("../images/whiskey-bg.jpeg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; /* para corregir franja que deja obscura la franja de navegacion o menu */
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.quotes-container {
+
+}
+
+.features-container {
+
+}
+
+.favorities-container {
+
+}
+
+/* Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+}
+
+/* Scrolling Table */
+
+.TableScroll {
+    position: relative; 
+    height: 500px; 
+    overflow: auto; 
+    display: block;
+}
